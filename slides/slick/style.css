@@ -1,10 +1,21 @@
 body, html {
-	background: #ADD8E6 url("images/sayagata-400px.png") repeat scroll 0 0;
-	height: 100%;
-    width: 100%;
+	background: #ADD8E6 url("https://uaintegration.github.io/slides/images/sayagata-400px.png") repeat scroll 0 0;
+	margin: 0 auto;
+	height: 95%;
+    width: 97%;
+}
+.title {
+	margin-left: 50px;
 }
 .your-class {
 	margin: 20px 50px;
 	border: 1px solid;
-	height: 80%;
+	height: 85%;
+}
+.slick-prev::before, .slick-next::before{
+	color: blue;
+}
+.slick-dots li button::before {
+	font-size: 10px;
+    line-height: 30px;
 }
