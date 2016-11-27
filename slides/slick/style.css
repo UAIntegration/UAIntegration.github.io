@@ -2,15 +2,13 @@ body, html {
 	background: #ADD8E6 url("https://uaintegration.github.io/slides/images/sayagata-400px.png") repeat scroll 0 0;
 	margin: 0 auto;
 	height: 95%;
-    width: 97%;
-}
-.title {
-	margin-left: 50px;
+    width: 99%;
 }
 .your-class {
-	margin: 20px 50px;
-	border: 1px solid;
+	margin: 45px 50px 0 50px;
+	border: 1px solid #bebebe;
 	height: 85%;
+	background: #fefefe;
 }
 .slick-prev::before, .slick-next::before{
 	color: blue;
@@ -18,4 +16,7 @@ body, html {
 .slick-dots li button::before {
 	font-size: 10px;
     line-height: 30px;
+}
+.content {
+	margin: 10px;
 }
