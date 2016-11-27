@@ -1,7 +1,10 @@
 body, html {
-	background: #ADD8E6 url("/images/sayagata-400px.png") repeat scroll 0 0;
+	background: #ADD8E6 url("images/sayagata-400px.png") repeat scroll 0 0;
+	height: 100%;
+    width: 100%;
 }
 .your-class {
 	margin: 20px 50px;
 	border: 1px solid;
+	height: 80%;
 }
