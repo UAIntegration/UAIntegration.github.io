@@ -19,7 +19,13 @@
 
 	<script type="text/javascript">
 	$(document).ready(function(){
-		$('.your-class').slick();
+		$('.your-class').slick({
+		  dots: true,
+		  infinite: true,
+		  speed: 300,
+		  slidesToShow: 1,
+		  adaptiveHeight: true
+		});
 	  /*$('.your-class').slick({
 	    setting-name: setting-value
 	  });*/
