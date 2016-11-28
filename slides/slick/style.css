@@ -1,5 +1,5 @@
 body, html {
-	background: #ADD8E6 url("https://uaintegration.github.io/slides/images/sayagata-400px.png") repeat scroll 0 0;
+	background: #ADD8E6 url("https://uaintegration.github.io/slides/images/back400.png") repeat scroll 0 0;
 	margin: 0 auto;
 	height: 95%;
     width: 99%;
@@ -28,16 +28,18 @@ body, html {
 	height: 100%;
 }
 .helper {
-	display:-moz-inline-box;
-    display:inline-block;
-    vertical-align:middle;
-    height:100%;
-    width:0px;
-    zoom:1;
+	display: -moz-inline-box;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 0px;
+    zoom: 1;
 }
 .centers {
-	display:-moz-inline-box;
-	display:inline-block;
-    vertical-align:middle;
-    zoom:1;
+	display: -moz-inline-box;
+	display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    width: 100%;
+    text-align: center;
 }
